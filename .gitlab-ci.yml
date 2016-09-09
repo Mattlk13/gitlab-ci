@@ -47,6 +47,11 @@ code style:
   tags:
   - docker
 
+licenses check:
+  stage: test
+  script:
+  - make deps license
+
 unit tests:
   stage: test
   script:
