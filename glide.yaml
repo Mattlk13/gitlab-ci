@@ -6,9 +6,9 @@ import:
   - compute/metadata
   - internal
 - package: github.com/BurntSushi/toml
-  version: bbd5bb678321a0d6e58f1099321dfa73391c1b6f
+  version: ~0.2.0
 - package: github.com/Sirupsen/logrus
-  version: 418b41d23a1bf978c06faea5313ba194650ac088
+  version: ~0.8.7
 - package: github.com/ayufan/golang-kardianos-service
   version: 0c8eb6d8fff2e2fb884a7bfd23e183fb63c0eff3
 - package: github.com/beorn7/perks
@@ -16,7 +16,7 @@ import:
   subpackages:
   - quantile
 - package: github.com/blang/semver
-  version: 60ec3488bfea7cca02b021d106d9911120d25fe9
+  version: ~3.3.0
 - package: github.com/cloudfoundry-incubator/candiedyaml
   version: 99c3df83b51532e3615f851d8c2dbb638f5313bf
 - package: github.com/codegangsta/cli
@@ -34,14 +34,14 @@ import:
   subpackages:
   - journal
 - package: github.com/coreos/pkg
-  version: 3ac0863d7acf3bc44daf49afef8919af12f704ef
+  version: ~3.0.0
   subpackages:
   - capnslog
   - health
   - httputil
   - timeutil
 - package: github.com/davecgh/go-spew
-  version: 6cf5744a041a0022271cefed95ba843f6d87fd51
+  version: ~1.0.0
   subpackages:
   - spew
 - package: github.com/docker/distribution
@@ -104,7 +104,7 @@ import:
   subpackages:
   - proto
 - package: github.com/google/cadvisor
-  version: 2ed7198f77395ee9a172878a0a7ab92ab59a2cfd
+  version: ~0.24.0-alpha1
   subpackages:
   - info/v1
 - package: github.com/google/gofuzz
@@ -134,7 +134,7 @@ import:
 - package: github.com/pborman/uuid
   version: c55201b036063326c5b1b89ccfe45a184973d073
 - package: github.com/prometheus/client_golang
-  version: c5b7fccd204277076155f10851dad72b76a49317
+  version: ~0.8.0
   subpackages:
   - prometheus
 - package: github.com/prometheus/client_model
@@ -210,13 +210,13 @@ import:
   - compute/metadata
   - internal
 - package: gopkg.in/inf.v0
-  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+  version: ~0.9.0
 - package: gopkg.in/yaml.v1
   version: 9f9df34309c04878acc86042b16630b0f696e1de
 - package: gopkg.in/yaml.v2
   version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
 - package: k8s.io/kubernetes
-  version: b0deb2eb8f4037421077f77cb163dbb4c0a2a9f5
+  version: ~1.3.5
   subpackages:
   - federation/apis/federation
   - federation/apis/federation/install
