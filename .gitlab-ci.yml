@@ -70,6 +70,7 @@ code style:
 unit tests:
   stage: test
   script:
+  - useradd -r test-user
   - source ci/touch_make_dependencies
   - make deps
   - make test
