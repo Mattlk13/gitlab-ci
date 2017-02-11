@@ -155,8 +155,9 @@ func (b *Build) executeStage(buildStage BuildStage, executor Executor, abort cha
 	}
 
 	cmd := ExecutorCommand{
-		Script: script,
-		Abort:  abort,
+		Script:     script,
+		Abort:      abort,
+		BuildStage: buildStage,
 	}
 
 	switch buildStage {

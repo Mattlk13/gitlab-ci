@@ -10,6 +10,7 @@ type ExecutorCommand struct {
 	Script     string
 	Predefined bool
 	Abort      chan interface{}
+	BuildStage BuildStage
 }
 
 type Executor interface {
